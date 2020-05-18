@@ -193,7 +193,7 @@
         "botAppUrl": "[concat('https://', variables('botAppDomain'))]",
         "hostingPlanName": "[parameters('baseResourceName')]",
         "botAppInsightsName": "[parameters('baseResourceName')]",
-        "sqlServerName": "[concat(parameters('baseResourceName'), uniqueString(subscription().id, resourceGroup().id))]",
+        "sqlServerName": "[concat(parameters('baseResourceName'), 'sqlsvradc']",
         "databaseName": "[concat(parameters('baseResourceName'), 'DB')]",
         "databaseEdition": "[parameters('SQLplanSize')]",
         "databaseCollation": "SQL_Latin1_General_CP1_CI_AS",
