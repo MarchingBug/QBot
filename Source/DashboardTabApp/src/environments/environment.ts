@@ -1,6 +1,6 @@
 export const environment = {
     production: false,
-    apiBaseUrl: "https://QBotDemoadc.azurewebsites.net/api/Request/",
+    apiBaseUrl: "https://QBotadc.azurewebsites.net/api/Request/",
 
     authConfig: {
         instance: "https://login.microsoftonline.com/",
